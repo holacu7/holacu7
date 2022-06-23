@@ -1247,7 +1247,7 @@ function A1()
 Kkk = gg.multiChoice({
 "〔انتينا🗼〕",
 "〔لون ابيض🐻‍❄️〕", 
-"〔🅾جاري التطوير🅾〕",
+"〔تلويت الغرف بدون بطاقة 🃏〕",
 "〔طيران الفاونديشن🏗️〕", 
 "〔النزول تحت الارض♨️ 〕",
 "〔ليل نهار🌇〕",
@@ -1262,7 +1262,7 @@ Kkk = gg.multiChoice({
  if Kkk == nil then else 
 if Kkk [1] ==  true then anten() end
 if Kkk [2] ==  true then pers() end
-if Kkk [3] ==  true then sf()end
+if Kkk [3] ==  true then hhhhhhg()end
 if Kkk [4] ==  true then fly() end
 if Kkk [5] ==  true then select() end
 if Kkk [6] ==  true then day() end
@@ -1308,10 +1308,55 @@ if love == 2 then speedbulet()end
 if love == 3 then AIM() end
 if love == 4 then fastchang() end
 if love == 5 then aimlok()end
-if lobe == 6 then KRAM() end
+if love == 6 then KRAM() end
 if love == 7 then phpd() end
 
 GLWW=-1
+end
+
+
+function hhhhhhg()
+  F = gg.alert("|تلويت غرفه الوت بدون بطاقات|", "[̲̅تشغيل̲̅]","[̲̅تعطيل̲̅]")
+    if F == 1 then
+qmnb = {
+{["memory"] = 32},
+{["name"] = "5͓̽0͓̽%͓̽"},
+{["value"] = 6.699999809265137, ["type"] = 16},
+{["lv"] = 0.10000000149011612, ["offset"] = 16, ["type"] = 16},
+{["lv"] = 0.10000000149011612, ["offset"] = 24, ["type"] = 16},
+}
+qmxg = {
+{["value"] = -99, ["offset"] = 16, ["type"] = 16},
+{["value"] = -99, ["offset"] = 24, ["type"] = 16},
+}
+xqmnb(qmnb)
+
+qmnb = {
+{["memory"] = 32},
+{["name"] = "1͓̽0͓̽0͓̽%͓̽"},
+{["value"] = 999.0, ["type"] = 16},
+{["lv"] = 0.10000000149011612, ["offset"] = 16, ["type"] = 16},
+{["lv"] = 0.004999999888241291, ["offset"] = 24, ["type"] = 16},
+}
+qmxg = {
+{["value"] = 8.88479995728, ["offset"] = 20, ["type"] = 16},
+
+}
+xqmnb(qmnb)
+elseif F == 2 then
+  qmnb = {
+{["memory"] = 32},
+{["name"] = "1͓̽0͓̽0͓̽%͓̽"},
+{["value"] = 999.0, ["type"] = 16},
+{["lv"] = 0.10000000149011612, ["offset"] = 16, ["type"] = 16},
+{["lv"] = 0.004999999888241291, ["offset"] = 24, ["type"] = 16},
+}
+qmxg = {
+{["value"] = 1.00000003e32, ["offset"] = 20, ["type"] = 16},
+
+}
+xqmnb(qmnb)
+end
 end
 function AIM() 
 kjk = gg.choice({
@@ -1330,11 +1375,11 @@ end
 
 function KRAM()
 SN7 = gg.choice({
-"☠️┣ Магические пули 30% [No ban]",
-"☠️┣ Магические пули 90%+45%💀",
-"☠️┣ Магические пули 200% Head 🆕",
-"❎Выход❎",
-}, nil,"┣【Новая версия 3.0 Автор @ZerroHack】┫")
+"☠️┣ طلق سحري30% [امن]",
+"☠️┣ طلق سحري +هيد شوت 90%+45%💀",
+"☠️┣ طلق سحري 200% هيد 🆕",
+"❎رجوع❎",
+}, nil,"┣【 HoLaCu Hack 】 \n  Version【1.0】 \n  [%d/%m/%y | %X】┫")
 if SN7 == 1 then 
 IO()
 end
@@ -1344,8 +1389,8 @@ end
 if SN7 == 3 then 
 IK()
 end
-if SN7 == 3 then
-HOME()
+if SN7 == 4 then
+lool()
 end
 XGCK = -1
 end
@@ -2361,6 +2406,39 @@ local ll = {0x9588, 0xB8, 0x60, 0x178, 0x58, 0x10, 0x80}---
 local lll = S_Pointer(l, ll, true)
 gg.addListItems({{address = lll, flags = 16, value = 1.5, freeze = true}}) 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 local l = {"libunity.so:bss","Cb"}
 local ll = {0x9588, 0xB8, 0x60, 0x178, 0x58, 0x10, 0x80}---
 local lll = S_Pointer(l, ll, true)
@@ -2371,9 +2449,8 @@ elseif MV == 2 then
 local l = {"libunity.so:bss","Cb"}
 local ll = {0x9588, 0xB8, 0x60, 0x178, 0x58, 0x10, 0x80}---
 local lll = S_Pointer(l, ll, true)
-gg.addListItems({{address = lll, flags = 16, value = 1, freeze = true}}) 
+gg.addListItems({{address = lll, flags = 16, value =0.5, freeze = true}}) 
 gg.toast("🇮🇶🅾🅵🅵🇮🇶")
-
 
 
 end
